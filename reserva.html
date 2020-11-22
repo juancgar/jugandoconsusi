@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ">
+    <!-- Bootstrap CSS -->
+    <script src="/script/reserva.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/grid/">
+    <title>Reservar</title>
+  </head>
+  <style>
+    .btn{
+        margin:10px 100px 10px 100px;
+        
+    }
+    .navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  </style>
+  <body>
+        <div class="container" >
+                <nav class="navbar fixed-top navbar-light bg-warning">
+                <a class="navbar-brand">Jugando Con Susi</a>
+             </nav>
+           </div>
+     
+           <div class="container" > 
+                <br>
+                <br>
+           </div>
+           <div class="container" > 
+                 <br>
+                 <br>
+            </div>
+            <div class="container-fluid text-center" > 
+                 <h1>Reservar</h1>
+            </div>
+    <div class="d-flex justify-content-center">
+            <form>
+                    <div class="form-group">
+                            <label for="resNombre">Nombre</label>
+                            <input type="name" class="form-control" id="resNombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                      <label for="resCancha">cancha</label>
+                      <select id="resCancha" class="form-control">
+                        <option selected>Calzada</option>
+                        <option>Cumbres elite</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                            <label for="resNumP">Numero de Personas</label>
+                            <select id="resNumP" class="form-control">
+                              <option selected>0</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                            </select>
+                          </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="fecha">Fecha</label>
+                            <input type="date" id="resFecha" name="fecha"
+                            min="2020-11-23" max="2021-12-31">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="hora">Hora</label>
+                            <input type="time" id="resHora" name="hora"
+                                  min="08:00" max="22:00" required>
+                            <br>
+                            <small>Solo se puede reservar de 8am to 10pm</small>
+                        </div>
+                        <div class="form-group">
+                                <label for="resDur">Duración</label>
+                                <select id="resDur" class="form-control">
+                                  <option selected>0</option>
+                                  <option>30</option>
+                                  <option>60</option>
+                                  <option>90</option>
+                                  <option>120</option>
+                                </select>
+                              </div>
+                    </div>
+                    <button type="button" class="btn btn-secondary" href="/home">Cancelar</button>
+                    <button type="button" id="submit" class="btn btn-success">Guardar</button>
+                </form>
+
+    </div>
+  </body>
+  
+     <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</html>

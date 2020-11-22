@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/grid/">
+    <link rel="stylesheet" href="home.css">   
+     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/grid/">
+
+    <title>Jugando Con Susi</title>
+  </head>
+  <style>
+      .navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+        * {box-sizing: border-box;}
+        .container {
+        position: relative;
+        }
+
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        .overlay {
+            position: absolute; 
+            bottom: 0; 
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1; 
+            width: 95%;
+            transition: .5s ease;
+            opacity:0;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        </style>
+  <body>
+        <div class="container" >
+           <nav class="navbar fixed-top navbar-light bg-warning">
+           <a class="navbar-brand">Jugando Con Susi</a>
+        </nav>
+      </div>
+
+      <div class="container" > 
+           <br>
+           <br>
+      </div>
+      <div class="container" > 
+            <br>
+            <br>
+       </div>
+       <div class="container-fluid text-center" > 
+            <p>Selecciona la cancha que deseas reservar </p>
+       </div>
+
+      <div class="container-fluid text-center "  > 
+            <div class="row">
+                    <div class="col-sm-2">
+                            <br>
+                        </div>
+                <div class="col-sm-4" >
+                    <div class="container">
+                        <img src="https://i.pinimg.com/736x/b1/b9/bf/b1b9bfb9862b8e074648cd4d1278e8c9.jpg" class="image">
+                        <div class="overlay">Cancha 1
+                            <br>Direccion
+                        </div>
+                    </div>
+                    <br>
+                    <a class="btn btn-primary btn-lg" id="cancha1" href="/calendarEncinos">Cancha 1</a>
+                 </div>
+                 <div class="col-sm-1">
+                     <br>
+                 </div>
+                 <div class="col-sm-4"  >
+                        <div class="container">
+                            <img src="https://img.freepik.com/vector-gratis/cancha-baloncesto-calle_33099-1124.jpg" class="image">
+                            <div class="overlay">Cancha 2
+                                <br>Direccion
+                            </div>
+                        </div>
+                        <br>
+                        <a class="btn btn-primary btn-lg" id="cancha2" href="calendarCumbres">Cancha 2</a>
+                </div>
+            </div>
+            <div class="container" > 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+           </div>
+            
+        </div>     
+        
+    
+       
+
+
+      </body>
+
+     <!-- Si utilizamos componentes de Bootstrap que requieran Javascript agregar estos tres archivos -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</html>
